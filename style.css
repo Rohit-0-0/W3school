@@ -1,0 +1,874 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+height: 7vh;
+background-color: white;
+z-index: 10000;
+}
+.stickynav{
+position: sticky;
+top: 0px;
+z-index: 10000;
+}
+
+.leftnav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.rightnav{
+    width: 45%;
+    display: flex;
+    
+    justify-content: space-evenly;
+  
+    align-content: center;
+gap: 1em;
+
+}
+.rightnav img{
+    height: 50%;
+}
+.centernavlogo{
+    display: flex;
+        flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+nav img{
+    height: 60%;
+}
+#search{
+    border-radius: 0.625em;
+}
+.centernavlogo button{
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 0.625em;
+    padding: 0.5em;
+}
+
+#upgrade{
+    border-radius: 0.625em;
+    background-color: rgb(249, 249, 250);
+}
+.smallnav{
+    background-color: rgb(42, 34, 58);
+    color: white;
+    display: flex;
+        flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+.learntocode
+{
+    background-color: rgb(45, 43, 50);
+    height: 70vh;color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+align-content: center;
+gap: 2em;
+width: 100%;
+z-index: 1;
+}
+.learntocode h1{
+    font-size: 70px;
+}
+.abc{
+    font-size: 23px;
+}
+.search input{
+    z-index: 1;
+}
+.search{
+    border-radius: 0.625em;
+    width: 100%;
+    height: 3em;
+    z-index: 1;
+}
+.search input{
+    border-radius: 6.25em;
+     width: 100%;
+     height: 100%;
+}
+#yellowcolor{
+    color: rgb(253, 253, 139);
+}
+.adjustsearchlogo{
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.searchlogo{
+    position: absolute;
+    width: 20%;
+    height: 95%;
+    background-color: #04aa6d;
+    right: 0px;
+    top: 1.5px;
+   border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+    overflow: hidden;
+      z-index: 1;
+}
+.searchlogo img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+      z-index: 1;
+}
+
+.codecontainer1{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2em;
+}
+.codecontainer {
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  background-color: rgb(217, 237, 237);
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.codehead{
+    font-size: 50px;
+}
+.codecontainer2{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    row-gap: 3em;
+}
+.card{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-content: center;
+    background-color: rgb(240, 240, 255);
+    gap: 0.2em;
+    padding-left: 1em;
+
+}
+.codecard{
+    width: 90%;
+    background-color: white;
+    border: none;
+    border-radius: 0.625em;
+    height: 70%;
+    font-size: larger;
+}
+.greenbutton{
+    width: 25%;
+    height: 7%;
+    border-radius: 6em;
+    background-color: rgb(7, 182, 103);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.orangebutton{
+    width: 25%;
+    height: 7%;
+    border-radius: 6em;
+    background-color: rgb(255, 240, 146);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.blackbutton{
+    width: 25%;
+    height: 7%;
+    border-radius: 6em;
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.pinkbutton{
+    width: 25%;
+    height: 7%;
+    border-radius: 6em;
+    background-color: rgb(254, 175, 228);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.bottoncard{
+    width: 40%;
+    height: 200%;
+    background-color: rgb(7, 182, 103);
+    border-radius: 6em;
+    color: white;
+}
+.codecontainercss {
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  background-color: rgb(248, 235, 155);
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.codecontainerjava {
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+      background-color: rgb(29, 29, 29);
+      color: white;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.codecontainerpython {
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  background-color: rgb(237, 225, 236);
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.codecontainersql {
+  max-width: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  background-color: rgb(170, 203, 247);
+    height: 70vh;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.javatext{
+    color: black;
+}
+.learnlaguage{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(45, 43, 50);
+    width: 50%;
+}
+.learnlaguagebox{
+    width: 45%;
+    background-color: pink;
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.learnlaguageboxj{
+    width: 45%;
+      background-color: rgb(248, 235, 155);
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.learnlaguageboxjava{
+    width: 48%;
+      background-color: rgb(237, 225, 236);
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.learnlaguageboxcpp{
+    width: 45%;
+      background-color: rgb(214, 227, 251);
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.learnlaguageboxw3css{
+    width: 45%;
+      background-color: rgb(185, 205, 240);
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.learnlaguageboxboot{
+     width: 45%;
+      background-color: rgb(223, 233, 251);
+    height: 16em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.learnlanguageparent
+{
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4em;
+      background-color: rgb(45, 43, 50);
+      justify-content: space-around;
+      position: relative;
+      top: -px;
+      
+
+}
+.learnlaguageboxbutton{
+    width: 30%;
+     height: 15%;
+}
+.learnbutton{
+     background-color: rgb(45, 43, 50);
+     width: 100%;
+     height: 100%;
+     border-radius: 50px;
+     color: white;
+}
+.learnlaguageboxtitle{
+    font-size: larger;
+}
+.marginblack
+{
+    margin-top: 3em;
+}
+.learnlaguageboxc{
+    width: 45%;
+    background-color: pink;
+    height: 8em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.learnlaguageboxchash{
+    width: 45%;
+     background-color: rgb(248, 235, 155);
+    height: 8em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.smalllanguage{
+    display: flex;
+    height: 8em;
+    gap: 8em;
+  background-color: rgb(45, 43, 50);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 2em;
+}
+.sl1{
+    height: 100%;
+    width: 15%;
+    background-color: aliceblue;
+      justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.sl2{
+    height: 100%;
+    width: 15%;
+    background-color: aqua;
+      justify-content: center;
+  align-items: center;
+  align-content: center;
+    text-align: center;
+
+}
+.sl3{
+    height: 100%;
+    width: 15%;
+    background-color: azure;
+      justify-content: center;
+  align-items: center;
+  align-content: center;
+    text-align: center;
+
+}
+.sl4{
+    height: 100%;
+    width: 15%;
+    background-color: blanchedalmond;
+      justify-content: center;
+  align-items: center;
+  align-content: center;
+    text-align: center;
+
+}
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+   background-color: rgb(205, 221, 249);
+   padding: 3em;
+}
+.loginhead{
+    font-size: 2em;
+}
+.Editorhead{
+    font-size: 2em;
+}
+.logindetail{
+    font-weight: 600;
+}
+.Editordetail{
+        font-weight: 600;
+}
+.loginimage{
+    width: 70%;
+}
+
+.loginimage img{
+     width: 100%;
+}
+.loginbutton{
+    width: 18%;
+    height: 3em;
+    
+}
+.loginbutton button{
+    width: 100%;
+    height: 100%;
+   background-color: rgb(7, 182, 103);
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+}
+.Editorimage{
+       width: 100%;
+}
+.Editor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+      background-color: rgb(45, 43, 50);
+   padding: 3em;
+   color: white;
+}
+.Editorbutton1{
+  width: 100%;
+   text-align: start;
+   align-items: start;
+   justify-content: start;
+   align-content: start;
+  height: 3em;
+}
+
+.Editorbutton1 button{
+ width: 40%;
+    height: 100%;
+   background-color: rgb(7, 182, 103);
+    border-radius: 0.625em;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    
+    
+}
+.Buttonleft{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    width: 65%;
+    
+}
+.Editorbutton2{
+  width: 100%;
+   text-align: start;
+   align-items: start;
+   justify-content: start;
+   align-content: start;
+  height: 3em;
+}
+.Editorbutton2 button{
+ width: 50%;
+    height: 100%;
+        background-color: rgb(248, 235, 155);
+    border-radius: 0.625em;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    border: none;
+    
+    
+}
+.plususer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 3em;
+    width: 100%;
+    height: 90vh;
+      background-color: rgb(45, 43, 50);
+      color: white;
+}
+.plushead{
+    font-size: 2em;
+}
+.redtext{
+    color: rgb(248, 136, 136);
+    font-size: 25px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+.listitem{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.buttondiv{
+    width: 15%;
+    height: 3em;
+}
+.plusbutton{
+      width: 100%;
+    height: 100%;
+    border-radius: 6em;
+    background-color: rgb(7, 182, 103);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.forteachers{
+    height: 90vh;
+    display: flex;
+}
+.teachertext{
+    width: 50%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 3em;
+    
+    height: 90vh;
+      background-color: rgb(45, 43, 50);
+      color: white;
+}
+    .teacherimage{
+        width: 50%;
+        display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-content: center;
+    gap: 3em;
+    
+    height: 90vh;
+      background-color: rgb(45, 43, 50);
+    }
+     .teacherimage img{
+        width: 50%;
+        height: 50%;
+     }
+.colorimage{
+    height: 10em;
+}
+.colorimage img{
+    height: 100%;
+}
+#heightcolor{
+    height: 65vh;
+}
+.codegame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+     background-color: rgb(155, 218, 249);
+    
+}
+.gamebutton{
+    width: 10em;
+    height: 3em;
+         background-color: rgb(45, 43, 50);
+                  border-radius: 50px;
+
+}
+.gamebutton button{
+    width: 100%;
+    height: 100%;
+         background-color: rgb(45, 43, 50);
+         border-radius: 50px;
+         border: none;
+         color: white;
+}
+.quiz{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+     background-color: rgb(45, 43, 50);
+     color: white;
+     gap: 2em;
+}
+.quiztitle{
+    font-size: 36px;
+}
+.exercises{
+      width: 35%;
+    height: 12em;
+    color: white;
+    background-color:#04aa6d ;
+}
+.exercises button{
+height: 100%;
+width: 100%;
+ background-color:#04aa6d ;
+ font-size: x-large;
+ color: white;
+}
+.quizes{
+       width: 35%;
+    height: 12em;
+    color: white;
+    background-color:#f1ab3a ;
+}
+.quizes button{
+height: 100%;
+width: 100%;
+   background-color:#f9f6a0d8 ;
+    font-size: x-large;
+}
+
+.quizbutton{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.templatebutton{
+    height: 3em;
+    width: 50%;
+}
+.templatebutton button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+     background-color: rgb(45, 43, 50);
+     color: white;
+}
+.template{
+ width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+   background-color: rgb(223, 226, 231);
+   padding: 3em;
+   }
+.career{
+    height: 60vh;
+     background-color: rgb(45, 43, 50);
+     display: flex;
+     flex-direction: column;
+   
+     justify-content: space-evenly;
+    padding-left: 10%;
+    position: relative;
+}
+#qwerty{
+  font-size: 4em;}
+.careerbutton{
+     width: 15%;
+    height: 4em;
+    border-radius: 6em;
+    background-color: rgb(7, 182, 103);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.careerbutton button{
+     background-color: rgb(7, 182, 103);
+     border: none;
+     color: white;
+}
+.careerposition{
+    position: absolute;
+    bottom:.5em;
+    right: 20em;
+    z-index: 100;
+}
+.careerposition img{
+    height: 10em;
+    width: 10em;
+}
+.careerposition2{
+     position: absolute;
+    bottom:-3em;
+    right: 13em;
+        z-index: 10;
+
+}
+.careerposition2 img{
+    height: 10em;
+    width: 10em;
+}
+.loginbuttonhow{
+    width: 100%;
+    height: 3em;
+}
+.loginbuttonhow button{
+    width: 100%;
+    height: 100%;
+  background-color: rgb(45, 43, 50);
+  color: white;
+  border-radius: 50px;
+}
+.connect{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    bottom: 80%;
+    left: 41%;
+    z-index: 100;
+      background-color: rgb(45, 43, 50);
+}
+.connnectmain{
+    width: 20%;
+    position: relative;
+}
+footer{
+    height: 70vh;
+         background-color: rgb(45, 43, 50);
+         color: white;
+         padding-top: 3em;
+         display: flex;
+         flex-direction: column;
+        justify-content: space-evenly;
+}
+.footersecction1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footersection1item{
+    color: orange;
+    width: 10%;
+}
+.footersecction2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.xyz{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.asdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.asdf p{
+    width: 50%;
+}
+.pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.pop p{
+    width: 50%;
+}
